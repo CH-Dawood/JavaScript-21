@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="live.js"></script>
+
+    <!-- bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>javaScript Assignment</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+
+            <nav class="navbar navbar-light  text-center" id="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" style="color: white;"><span>Assignment</span>&ensp;&ensp;<span>Chapter
+                            21-25</span></a>
+                    <a class="search"></a>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        </a>
+                    </form>
+                </div>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="py-5">
+
+            <div class="container">
+
+                <div class="row mb-3 mb-md-4 ">
+
+                    <div class="col">
+
+                        <h3 class="text-center">Chapter # 15-20 | Array: its Methods & for loop.</h3>&ensp;
+
+                        <hr>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Input Text -->
+
+        <div class="py-5">
+
+            <div class="container">
+
+                <div class="row mb-3 mb-md-4">
+
+                    <div class="col">
+
+                        <h3 class="text-center mb-3">Input</h3>
+
+                        <div class="border rounded-3 p-4 border-secondary text-center ">
+
+
+                            <div class="input-group mb-2">
+                                <input type="text" id="inputText" class="form-control" placeholder="Type Your Text Here"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    id="button-addon2">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Original Statement -->
+                    <div class="col mb-5">
+                        <h3 class="text-center mb-3">Original Statement</h3>
+
+                        <div class="border rounded-3 p-3 border-secondary text-center btn-dark" id="OriginalStatement">
+                            <p> I love my country Pakistan.<br>I like my city Faisalabad.<br>I love my Homeland.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container">
+
+                <div class="row  mb-3 mb-md-4">
+
+                    <div class="col">
+
+                        <div class="btn border rounded-3 border-secondary  py-4 text-center ">
+
+                            <button class="btn btn-danger m-1" onclick="toLowerCase()">Convert to Lowercase</button>
+
+                            <button class="btn btn-danger m-1" onclick="toUpperCase()">Convert to Uppercase</button>
+
+                            <button class="btn btn-danger m-1" onclick="toCapitalize()">Convert to Capitalize </button>
+
+                            <button class="btn btn-danger m-1" onclick="toBetterFormatting()">Better Formatting</button>
+
+                            <button class="btn btn-danger m-1" onclick="printAllCities()">Print All Cities </button>
+
+                            <button class="btn btn-danger m-1" onclick="addCity()">Add Your City In List </button>
+
+                            <button class="btn btn-danger m-1" onclick="checkYourCity()">Check Your City In List</button>
+                            
+                            <button class="btn btn-danger m-1" onclick="findThisWord()">Find This Word </button>
+
+                            <button class="btn btn-danger m-1" onclick="replaceThisWord()">Replace This Word </button>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Oputput Section -->
+
+                    <div class="col">
+
+                        <h3 class="text-center mb-3 ">Output / Result</h3>
+                        <div class="border rounded-3 py-4 border-secondary text-center" id="output">
+
+                            <div class="text-center m-1" id="output"></div>
+
+                        </div>
+
+                        <div class="buttton text-center mt-4">
+                            <button class="btn btn-outline-dark" id="output-btn">Clear Output</button>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col">
+
+                    <h6 class="text-center mt-1">&copy;2024. Assignment By CH-Dawood Arif.</h6>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
